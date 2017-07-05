@@ -2,6 +2,7 @@
 	width: 300px;
 	height: auto;
 	margin-bottom: 1em;
+	padding-left: 20px;
 }
 
 /* COLORS */
@@ -652,9 +653,14 @@ footer {
 	}
 
 	.partners {
+		margin-bottom: 60px;
+	}
+
+	.grid {
 		.card {
 		margin: 0 auto;
 	}
+
 	}
 
 	.card {

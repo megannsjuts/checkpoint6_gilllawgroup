@@ -1,7 +1,8 @@
 .logo {
   width: 300px;
   height: auto;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  padding-left: 20px; }
 
 /* COLORS */
 html {
@@ -499,7 +500,10 @@ footer {
   font-weight: bold;
   margin-bottom: 30px; }
 
-.partners .card {
+.partners {
+  margin-bottom: 60px; }
+
+.grid .card {
   margin: 0 auto; }
 
 .card {
