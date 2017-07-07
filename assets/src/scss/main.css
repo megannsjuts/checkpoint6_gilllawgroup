@@ -97,7 +97,8 @@ a {
 
 @media all and (max-width: 800px) {
   .nav {
-    justify-content: space-around; }
+    justify-content: space-around;
+    padding: 0; }
   .nav a:hover {
     background-color: #285ba0; } }
 
@@ -115,6 +116,11 @@ a {
   background: #88B04B;
   border: none; }
 
+@media all and (max-width: 750px) {
+  .call {
+    text-align: center;
+    width: 100%; } }
+
 .call a:hover {
   background: #88B04B;
   color: #ffffff; }
@@ -122,10 +128,11 @@ a {
 .banner1, .banner2 {
   margin: 0 auto; }
 
-.banner1 img {
+.banner1 {
   width: 100%;
   height: auto;
-  background: linear-gradient(rgba(30, 68, 119, 0.45), rgba(30, 68, 119, 0.45)), url("/Volumes/My Passport for Mac/UF Grad School/Summer 2017/Web Interactivity and Engagement/Check Point 6/checkpoint6_gilllawgroup/assets/src/img/city.png") center center no-repeat;
+  min-height: 500px;
+  background: linear-gradient(rgba(30, 68, 119, 0.45), rgba(30, 68, 119, 0.45)), url("../img/city.png") center center no-repeat;
   background-size: cover; }
 
 /*
@@ -218,10 +225,11 @@ a {
   margin-bottom: 0;
   margin-top: 60px; }
 
-.banner2 img {
+.banner2 {
   width: 100%;
   height: auto;
-  background: linear-gradient(rgba(30, 68, 119, 0.45), rgba(30, 68, 119, 0.45)), url("/Volumes/My Passport for Mac/UF Grad School/Summer 2017/Web Interactivity and Engagement/Check Point 6/checkpoint6_gilllawgroup/assets/src/img/lawyer.png") center center no-repeat;
+  min-height: 500px;
+  background: linear-gradient(rgba(30, 68, 119, 0.45), rgba(30, 68, 119, 0.45)), url("../img/lawyer.png") center center no-repeat;
   background-size: cover; }
 
 .award img {
@@ -473,6 +481,20 @@ footer {
       margin-bottom: 30px; } }
 
 /* ABOUT PAGE */
+.banner3 {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  background: linear-gradient(rgba(30, 68, 119, 0.45), rgba(30, 68, 119, 0.45)), url("../img/about.jpg") center center no-repeat;
+  background-size: cover; }
+
+.banner4 {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  background: linear-gradient(rgba(30, 68, 119, 0.45), rgba(30, 68, 119, 0.45)), url("../img/office.jpg") center center no-repeat;
+  background-size: cover; }
+
 .firm {
   background: #0067AD;
   margin: 0 auto;
@@ -504,7 +526,7 @@ footer {
   margin-bottom: 60px; }
 
 .grid .card {
-  margin: 0 auto; }
+  margin: 0 auto 30px; }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -550,3 +572,5 @@ footer {
   color: #0067AD;
   font-size: 20px;
   font-weight: bold; }
+
+/*# sourceMappingURL=main.css.map */

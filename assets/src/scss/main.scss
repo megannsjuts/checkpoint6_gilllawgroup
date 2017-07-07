@@ -126,6 +126,7 @@ a {
 @media all and (max-width:800px){
   .nav{
     justify-content:space-around;
+		padding: 0;
   }
   .nav a:hover{
     background-color: lighten($dark-blue,10%);
@@ -148,6 +149,13 @@ a {
 	border: none;
 }
 
+@media all and (max-width: 750px) {
+	.call {
+		text-align: center;
+		width: 100%;
+	}
+}
+
 .call a:hover {
 	background: $green;
 	color: #ffffff;
@@ -156,17 +164,19 @@ a {
 	margin: 0 auto;
 }
 
-.banner1 img {
+.banner1 {
 	width: 100%;
 	height: auto;
+	min-height: 500px;
 	background:
 	linear-gradient(
 		rgba(30, 68, 119, .45),
 		rgba(30, 68, 119, .45)
 		),
-	url('/Volumes/My Passport for Mac/UF Grad School/Summer 2017/Web Interactivity and Engagement/Check Point 6/checkpoint6_gilllawgroup/assets/src/img/city.png') center center no-repeat;
+		url('../img/city.png') center center no-repeat;
 	background-size: cover;
 }
+
 /*
 .banner h1 {
 	color: #ffffff;
@@ -274,15 +284,16 @@ a {
 	margin-top: 60px;
 }
 
-.banner2 img {
+.banner2 {
 	width: 100%;
 	height: auto;
+	min-height: 500px;
 	background:
 	linear-gradient(
 		rgba(30, 68, 119, .45),
 		rgba(30, 68, 119, .45)
 		),
-	url('/Volumes/My Passport for Mac/UF Grad School/Summer 2017/Web Interactivity and Engagement/Check Point 6/checkpoint6_gilllawgroup/assets/src/img/lawyer.png') center center no-repeat;
+		url('../img/lawyer.png') center center no-repeat;
 	background-size: cover;
 }
 
@@ -618,6 +629,32 @@ footer {
 
 /* ABOUT PAGE */
 
+.banner3 {
+	width: 100%;
+	height: auto;
+	min-height: 500px;
+	background:
+	linear-gradient(
+		rgba(30, 68, 119, .45),
+		rgba(30, 68, 119, .45)
+		),
+		url('../img/about.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.banner4 {
+	width: 100%;
+	height: auto;
+	min-height: 500px;
+	background:
+	linear-gradient(
+		rgba(30, 68, 119, .45),
+		rgba(30, 68, 119, .45)
+		),
+		url('../img/office.jpg') center center no-repeat;
+	background-size: cover;
+}
+
 .firm {
 	background: $light-blue;
 	margin: 0 auto;
@@ -658,7 +695,7 @@ footer {
 
 	.grid {
 		.card {
-		margin: 0 auto;
+		margin: 0 auto 30px;
 	}
 
 	}
