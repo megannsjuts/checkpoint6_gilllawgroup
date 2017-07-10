@@ -383,6 +383,18 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/lawyers.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lawyers.html",
+		"oF": 0
+		},
+	"\/news.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/news.html",
+		"oF": 0
+		},
 	"\/README.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -406,6 +418,12 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/services.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/services.html",
+		"oF": 0
 		}
 	},
 "hooks": [

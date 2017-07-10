@@ -657,7 +657,7 @@ footer {
 
 .firm {
 	background: $light-blue;
-	margin: 0 auto;
+	margin: 0 auto 30px;
 	padding: 20px 20px;
 
 	h1 {
@@ -755,4 +755,57 @@ footer {
 		color: $light-blue;
 		font-size: 20px;
 		font-weight: bold;
+	}
+
+	/* SERVICES PAGE */
+
+	.banner5 {
+		width: 100%;
+		height: auto;
+		min-height: 500px;
+		background:
+		linear-gradient(
+			rgba(30, 68, 119, .45),
+			rgba(30, 68, 119, .45)
+			),
+			url('../img/city.png') center center no-repeat;
+		background-size: cover;
+	}
+
+
+
+	/* LAWYERS PAGE */
+
+	.banner6 {
+		width: 100%;
+		height: auto;
+		min-height: 500px;
+		background:
+		linear-gradient(
+			rgba(30, 68, 119, .45),
+			rgba(30, 68, 119, .45)
+			),
+			url('../img/lawyer.png') center center no-repeat;
+		background-size: cover;
+	}
+
+	.lawyers {
+		padding: 5px 20px 5px 20px;
+		line-height: 28px;
+		font-size: 14px;
+	}
+
+	/* CONTACT PAGE */
+
+	.banner7 {
+		width: 100%;
+		height: auto;
+		min-height: 500px;
+		background:
+		linear-gradient(
+			rgba(30, 68, 119, .45),
+			rgba(30, 68, 119, .45)
+			),
+			url('../img/city.png') center center no-repeat;
+		background-size: cover;
 	}
